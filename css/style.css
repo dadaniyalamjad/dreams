@@ -1,0 +1,273 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    background-color: #fff;
+    color: #404041;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+}
+
+body > section {
+    padding: 50px  0;
+}
+
+.navbar-nav li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-dark {
+    background: transparent !important;
+}
+
+.navbar {
+    padding: 1.5rem 1rem !important;
+}
+
+.navbar-dark .navbar-nav > li {
+    margin-right: 30px;
+}
+
+.navbar-dark .navbar-nav > li:last-child {
+    margin-right: 0px !important;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #366db5 !important;
+}
+
+.navbar-dark .navbar-nav > li > a:hover, 
+.navbar-dark .navbar-nav > li > a:focus {
+    color: #366db5 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#home {
+    background: rgba(0, 0, 0, 0) url(../images/header-bg.jpg) no-repeat scroll 0 0;
+    background-size: cover;
+    position: relative;
+    height: 644px;
+}
+
+#home::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
+    top: 0;
+    left: 0;
+}
+
+.content {
+    width: 100%;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.content hr {
+    width: 100px;
+    background: #36b9eb;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+#services {
+    color: #222222;
+}
+
+#services hr {
+    width: 100px;
+    background: #36b9eb;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#services img {
+    margin-bottom: 40px;
+}
+
+#services p {
+    color: #cdcdcd;
+}
+
+#about {
+    background: #f7f7f7;
+}
+
+#about h1 {
+    color: #222222;
+    margin-bottom: 40px;
+}
+
+#about p {
+    margin-bottom: 50px;
+    color: #777777;
+}
+
+.about-item {
+	margin-bottom: 40px;
+}
+
+.about-item img {
+    padding-right: 20px;
+}
+
+.about-title {
+    margin-top: -30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.about-title p {
+    margin-bottom: 10px !important;
+}
+
+.btn {
+    padding: 10px 25px !important;
+    border-radius: 20px !important;
+}
+
+.btn-light {
+    color: #222;
+    background-color: #fff;
+    border-color: #d1f1fd;
+    font-weight: 700;
+}
+
+
+
+#portfolio p {
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.portfolio-item{
+	margin-bottom: 20px;
+}
+
+#gallery .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#gallery .col-md-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#about-us hr, #team hr {
+    width: 100px;
+    background: #36b9eb;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.vl {
+    height: 100px; 
+    position: relative; 
+    left: -78px;
+}
+
+.border-primary {
+    border-color: #f1f1f1 !important;
+}
+
+.border-right {
+    border-right: 3px solid #dee2e6 !important;
+}
+
+
+.dot {
+    height: 225px;
+    width: 225px;
+    background-color: #111111;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 30px 0;
+}
+
+.small-dot {
+    height: 45px;
+    width: 45px;
+    background-color: #111111;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 80px 0;
+}
+
+.small-dot > a > img {
+    margin: 10px;
+}
+
+footer {
+    background: #111111;
+    padding-top: 100px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    margin-top: -30px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+footer hr {
+    width: 100%;
+    background: #fff;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 50px;
+}
